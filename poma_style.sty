@@ -31,12 +31,12 @@
 \titleformat{\section}
   {\large}{\color{ASAblue}\textbf{\thesection.}}{1em}{\color{ASAblue}\textbf{\MakeUppercase{#1}}}
 \titleformat{\subsection}
-  {\normalsize}{\color{ASAblue}\textbf{\Alph{subsection}.}}{1em}{\color{ASAblue}\textbf{\MakeUppercase{#1}}}
+  {\normalsize}{\color{ASAblue}\textbf{\thesubsection.}}{1em}{\color{ASAblue}\textbf{\MakeUppercase{#1}}}
 \titleformat{\subsubsection}
-  {\normalsize}{\color{ASAblue}\textbf{\roman{subsubsection}.}}{1em}{\color{ASAblue}\textbf{#1}}
+  {\normalsize}{\color{ASAblue}\textbf{\thesubsubsection.}}{1em}{\color{ASAblue}\textbf{#1}}
 
 % No page numbers
-\pagenumbering{gobble}
+%\pagenumbering{gobble}
 
 % Set citation and bibliography styles
 \RequirePackage[superscript,biblabel]{cite}
